@@ -1,0 +1,17 @@
+# webStorm
+.idea
+
+# vscode
+.vscode
+
+# Files
+.DS_Store
+npm-debug.log
+*.map
+package-lock.json
+yarn.lock
+
+# Folders
+node_modules
+.sass-cache
+

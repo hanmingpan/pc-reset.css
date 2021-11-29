@@ -1,0 +1,86 @@
+/**
+ * 设置所有元素的盒模型
+ * 可以局部重置盒模型
+ */
+:root {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+/**
+ * 移除默认边距
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * 字体大小
+ * WCAG 标准行高
+ */
+body {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/**
+ * 字体像素级平滑
+ */
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 2dppx) {
+  /* Retina下仍使用默认字体渲染 */
+  body {
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+}
+
+/**
+ * 字体设置跟随系统字体设置变动
+ */
+html, body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+/**
+ * 为元素可设置高度100%提供基础
+ */
+html, body {
+    height: 100%;
+}
+
+/**
+ * 移除空白
+ */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/**
+ * 继承父级字体样式
+ */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/**
+ * 文本自动换行
+ */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/**
+ * 列表移除样式
+ */
+ul, ol {
+  list-style: none;
+}
+

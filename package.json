@@ -1,0 +1,25 @@
+{
+    "name": "pc-reset.css",
+    "version": "0.0.1",
+    "description": "a pc reset css",
+    "main": "reset.css",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:hanmingpan/pc-reset.css.git"
+    },
+    "keywords": [
+        "pc-reset.css",
+        "pc-reset",
+        "reset"
+    ],
+    "author": "hanmingpan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hanmingpan/pc-reset.css/issues"
+    },
+    "homepage": "https://github.com/hanmingpan/pc-reset.css#readme",
+    "devDependencies": {
+        "stylelint": "^9.5.0",
+        "stylelint-config-standard": "^18.2.0"
+    }
+}
